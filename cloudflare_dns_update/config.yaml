@@ -1,0 +1,22 @@
+name: "Cloudflare DNS Update"
+description: "This add-on will update a Cloudflare DNS record with your pulic IP-address"
+version: "0.1.5"
+url: https://github.com/jeroenvdw/hassio-cloudflare-update
+slug: "cloudflare_dns_update"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  api_token: ""
+  zone_id: ""
+  domain: "subdomain.mydomain.com"
+  sleep_time: 300
+schema:
+  api_token: str
+  zone_id: str
+  domain: str
+  sleep_time: int
