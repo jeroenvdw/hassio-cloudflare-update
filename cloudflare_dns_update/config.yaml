@@ -1,4 +1,4 @@
-name: "Cloudflare DNS Update TEST"
+name: "Cloudflare DNS Update"
 description: "This add-on will update a Cloudflare DNS record with your pulic IP-address"
 version: "0.1.5"
 url: https://github.com/jeroenvdw/hassio-cloudflare-update
