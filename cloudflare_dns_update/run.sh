@@ -4,5 +4,7 @@ API_TOKEN=$(bashio::config 'api_token')
 ZONE_ID=$(bashio::config 'zone_id')
 DOMAIN=$(bashio::config 'domain')
 SLEEP_TIME=$(bashio::config 'sleep_time')
+IPV4=$(bashio::config 'ipv4')
+IPV6=$(bashio::config 'ipv6')
 
-python3 /update_dns_record.py  "${API_TOKEN}" "${ZONE_ID}" "${DOMAIN}" "${SLEEP_TIME}"
+python3 /update_dns_record.py  "${API_TOKEN}" "${ZONE_ID}" "${DOMAIN}" "${SLEEP_TIME}" "${IPV4}" "${IPV6}"

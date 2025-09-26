@@ -1,7 +1,7 @@
 # Home Assistant Add-on: Cloudflare DNS Update
 
-This add-on will update a DNS record within Cloudflare, with your personal IP address.
-
+This add-on will update an **existing** DNS record within Cloudflare, with your personal IP address.
+You will need to configure your (sub)domain within Cloudflare first, with a proper A (IPVv4) or AAAA (IPV6) record.
 
 ## Installation
 
@@ -21,7 +21,7 @@ This add-on will update a DNS record within Cloudflare, with your personal IP ad
 
 ## Current status
 
-This is my first add-on for Home Assistant.
-I did not spend too much time on it, but it does work.
-
-Improve logging and documentation is still on the to do list. 
+ - Update for A-records (IPv4) works
+ - Update for AAAA-records (IPv6) is still experimental
+ - Documentation
+ 

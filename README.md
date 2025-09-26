@@ -1,5 +1,5 @@
 # Home Assistant Cloudflare DNS Update
-Home Assistant add-on, to update a DNS record within Cloufdlare with your publc IP address
+Home Assistant add-on, to update an existing DNS record within Cloufdlare with your publc IP address
 
 ## Installation
 
