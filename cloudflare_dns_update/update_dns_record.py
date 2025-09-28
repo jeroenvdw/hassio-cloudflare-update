@@ -22,7 +22,7 @@ headers = {
 
 def get_Public_IP(IPv6Mode=False):
     if IPv6Mode:
-        conn = http.client.HTTPSConnection("ap6.ipify.org")
+        conn = http.client.HTTPSConnection("api6.ipify.org")
     else:
         conn = http.client.HTTPSConnection("api.ipify.org")
     try:

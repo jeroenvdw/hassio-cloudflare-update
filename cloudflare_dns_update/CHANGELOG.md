@@ -9,3 +9,7 @@
 ## 0.2.0
 
 - Added IPv6 support
+
+## 0.2.1
+
+- Fixing typo in URL to ipify
