@@ -1,6 +1,6 @@
 name: "Cloudflare DNS Update"
 description: "This add-on will update an existing Cloudflare DNS record with your pulic IP-address"
-version: "0.2.1"
+version: "0.2.2"
 url: https://github.com/jeroenvdw/hassio-cloudflare-update
 slug: "cloudflare_dns_update"
 init: false

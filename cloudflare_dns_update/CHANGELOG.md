@@ -13,3 +13,7 @@
 ## 0.2.1
 
 - Fixing typo in URL to ipify
+
+## 0.2.2
+
+- Fixing error when updating IPv6 record

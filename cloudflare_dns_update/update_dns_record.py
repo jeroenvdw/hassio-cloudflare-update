@@ -93,7 +93,7 @@ while True:
             if DNS_Content == public_IPv6:
                 print("INFO: DNS AAAA Record matches already your public IPv6 - No update needed")
             else:
-                update_DNS_Record_IP(DNS_record_ID, public_IPv4,IPv6Mode=True)
+                update_DNS_Record_IP(DNS_record_ID, public_IPv6,IPv6Mode=True)
             old_Public_IPv6 = public_IPv6
     time.sleep(sleepTime)
     
