@@ -17,3 +17,7 @@
 ## 0.2.2
 
 - Fixing error when updating IPv6 record
+
+## 0.2.3
+
+- Fix in Dockerfile
